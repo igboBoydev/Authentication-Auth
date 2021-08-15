@@ -1,0 +1,29 @@
+<% layout('layouts/boilerplate') %>
+        <h1 class="d-flex justify-content-center mt-5 me-5">Sign Up</h1>
+        <div class="container">
+            <form class="validated-form" novalidate action="/register" method="POST">
+                <div class="mb-2">
+                    <label class="form-label" for="email">Enter Email</label>
+                    <input class="form-control" type="email" name="email" id="email" placeholder="Email">
+                    <div class="valid-feedback">
+                        Loks good
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label" for="username">Enter Username</label>
+                    <input class="form-control" type="text" name="username" id="username" placeholder="Username">
+                    <div class="valid-feedback">
+                        Looks good
+                    </div>
+                </div>
+                <div class="mb-2">
+                    <label class="form-label" for="password">Enter Password</label>
+                    <input class="form-control" type="password" name="password" id="password" placeholder="Password">
+                    <div class="valid-feedback">
+                        Looks good
+                    </div>
+                </div>
+                <button class="btn-success">Submit</button>
+                <a class="link" href="/login">Login</a>
+            </form>
+        </div>

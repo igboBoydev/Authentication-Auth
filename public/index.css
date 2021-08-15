@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a.link{
+    margin-left: 1rem;
+    outline: none;
+    text-decoration: none;
+    color: rgb(242, 242, 242);
+    background: rgb(47, 148, 179);
+    padding: .25rem;
+    border-radius: .2rem;
+}
+
+a.link_type._special{
+    border-right: 2px solid rgb(174, 173, 173);
+}
+
+a.link_type{
+  color: rgba(0,0,0,.55);
+}
+
+a.link_type:hover{
+    color: rgba(0,0,0,.55) !important;
+}
